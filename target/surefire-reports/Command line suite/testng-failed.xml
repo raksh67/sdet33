@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.crm.opportunity.CreateOpportunityTest">
+        <methods>
+          <include name="openDatabase"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="CloseDBConnection"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createOpportunityTest"/>
+        </methods>
+      </class> <!-- com.crm.opportunity.CreateOpportunityTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
